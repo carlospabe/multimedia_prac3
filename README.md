@@ -20,3 +20,6 @@ Página de información turística de Jurassic Park.
   - Restaurantes
 - **Dinosaurios**
   - Info de dinosaurios con imágenes y texto plano
+
+## Hosting gratuito
+Para el hosting de la web se han utilizado los servicios de [000webhost](000webhost.com).
