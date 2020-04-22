@@ -22,4 +22,4 @@ Página de información turística de Jurassic Park.
   - Info de dinosaurios con imágenes y texto plano
 
 ## Hosting gratuito
-Para el hosting de la web se han utilizado los servicios de [000webhost](000webhost.com).
+Para el hosting de la web se han utilizado los servicios de [000webhost](https://es.000webhost.com/).
