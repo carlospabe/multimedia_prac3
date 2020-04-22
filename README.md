@@ -1,5 +1,10 @@
 # Multimedia - Práctica 3
 
+## Hosting gratuito
+Para el hosting de la web se han utilizado los servicios de [000webhost](https://es.000webhost.com/).
+
+Sitio web: https://multimediajurassicpark.000webhostapp.com/index.html
+
 ## Propósito
 Creación de una web accesible.
 
@@ -21,5 +26,4 @@ Página de información turística de Jurassic Park.
 - **Dinosaurios**
   - Info de dinosaurios con imágenes y texto plano
 
-## Hosting gratuito
-Para el hosting de la web se han utilizado los servicios de [000webhost](https://es.000webhost.com/).
+
