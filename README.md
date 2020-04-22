@@ -15,9 +15,8 @@ Página de información turística de Jurassic Park.
   - Localización, mapa, etc.
   - Contacto
 - **Instalaciones**
-  - Restaurantes
-  - Atracciones y actividades
+  - Actividades y puntos de interés
   - Hoteles
-  - Puntos de interés general
+  - Restaurantes
 - **Dinosaurios**
   - Info de dinosaurios con imágenes y texto plano
