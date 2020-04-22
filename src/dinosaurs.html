@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jurassic Park</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:300,400,700|Rubik:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+    <script src="js/vendor/html5shiv.min.js"></script>
+    <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!-- START: header -->
+
+<header role="banner" class="probootstrap-header">
+    <!-- <div class="container"> -->
+    <div class="row">
+        <a href="index.html" class="probootstrap-logo visible-xs"><img src="img/logo_sm.png" class="hires" width="120" height="33" alt="Free Bootstrap Template by uicookies.com"></a>
+
+        <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
+        <div class="mobile-menu-overlay"></div>
+
+        <nav role="navigation" class="probootstrap-nav hidden-xs">
+            <ul class="probootstrap-main-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="active"><a href="rooms.html">Our Rooms</a></li>
+                <li class="hidden-xs probootstrap-logo-center"><a href="index.html"><img src="img/logo_md.png" class="hires" width="181" height="50" alt="Free Bootstrap Template by uicookies.com"></a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="extra-text visible-xs">
+                <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
+                <h5>Connect With Us</h5>
+                <ul class="social-buttons">
+                    <li><a href="#"><i class="icon-twitter"></i></a></li>
+                    <li><a href="#"><i class="icon-facebook2"></i></a></li>
+                    <li><a href="#"><i class="icon-instagram2"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- </div> -->
+</header>
+<!-- END: header -->
+
+<section class="probootstrap-slider flexslider probootstrap-inner">
+    <ul class="slides">
+        <li style="background-image: url(img/slider_1.jpg);" class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="probootstrap-slider-text text-center">
+                            <p><img src="img/curve_white.svg" class="seperator probootstrap-animate" alt="Free HTML5 Bootstrap Template"></p>
+                            <h1 class="probootstrap-heading probootstrap-animate">Nuestros dinosaurios</h1>
+                            <div class="probootstrap-animate probootstrap-sub-wrap">¡Más de 60 especimenes de 14 especies diferentes!</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</section>
+
+<section class="probootstrap-section">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+
+                <div class="probootstrap-room">
+<!--                    <a href="#"><img src="img/img_4.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></a>-->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                        <path d="M16 0C7.164 0 0 7.164 0 16c0 8.837 7.164 16 16 16s16-7.163 16-16c0-8.836-7.164-16-16-16zm14.545 16c0 .108-.014.214-.018.322-.22.03-.45.065-.45.065s.333-.368.458-.59c0 .07.01.135.01.203zM16 30.546C7.967 30.546 1.455 24.033 1.455 16S7.967 1.455 16 1.455c7.907 0 14.326 6.313 14.525 14.173-.195-.06-.967.043-.976-.046-.022-.1.237-.376.025-.43-.208-.073-.56.17-.756.17h-.187s.652-.62.477-.81c-.174-.19-.69-.102-.96.01-.27.117-.397.117-.397.117s.098-.674-.068-.77c-.152-.102-.218.275-.44.3-.228.038-.335.176-.335.176s.54-.834.44-1.083c-.09-.254-.567-.037-.924.075-.352.11-.493.166-.493.166s.254-.604.016-.658c-.24-.05-.358.355-.517.355-.156 0-.287-.113-.86-.18-.58-.064-.722-.046-.722-.046s.622-.383.622-.494c0-.112-.447.062-.83.015-.17-.02-.605-.185-1.285-.333l-.086-.473-.546.354c-.312-.053-.664-.095-1.056-.12l-.356-.47-1.205.478-.34.017c-.168.014-.33.036-.48.05l-.11-.365-1.057.505c-.36.06-.676.107-.958.165l-.302-.373-.85.67c-.218.07-.43.138-.632.21l-.117-.464-.774.82c-.363.19-.665.41-.915.6l-.27-.95-.584 1.433c-.1.022-.206.053-.32.105l-.168-.47s-.16.37-.34.793c-.005 0-.01 0-.01.007-.256.255-.218.38-.218.38s-.256.234-.526.398c-.117-.195-.207-.392-.207-.392l-.15.558c-.052.016-.104.02-.146.016-.238-.037-.42-.12-.588-.19v-.446l-.49.333c-.165-.018-.265-.03-.297-.036l.043-.08c.022-.03.047-.085.063-.13l.262-.56-1.265.416c-.158-.02-.356-.026-.525-.03l-.048-.797s-.362.452-.638.71H6.13c-.116-.068-.26-.184-.398-.184-.15 0-.276.64-.436.64s-.357.303-.373.42c-.01.11-.265.54-.38.907-.112.363-.155.97-.034 1.15.127.174.532.387.898.387.367 0 .977-.377 1.663-.377.692 0 1.075.037 1.574.304.495.275 1.44.807 1.783.966.354.158.676.228.692.48.015.257.063.622.1.694.033.086-.212.743-.388.833-.17.102-.85.986-.914 1.173-.062.176-.303.695-.403.73-.09.027-.09.463-.09.463s-.318.657-.127.785c.192.126.302-.367.398-.325.094.048-.033.303.174.286.213-.01.224-.503.66-.812.434-.303.493-.334.54-.54.05-.214.05-.404.368-.626.317-.22 1.312-.812 1.47-1.438.16-.623.15-.96.256-.96.117 0 .165.146.373.254.207.11.366.275.445.388.08.11.277.237.13.34-.14.09-.32.97-.337 1.227-.017.25-.063.702-.286.94-.225.232-.485.656-.654.668-.175.017-.326.117-.42.238-.096.13-.047.23.016.23.064 0 .127.023.064.103-.064.085.063.175.24.158.174-.01.403-.224.483-.16.08.07-.326.36.046.36.366 0 .414-.273.59-.273s.686-.176.707-.39c.01-.205.398-1.16.638-1.606.245-.45.62-1.89.675-2.03.042-.15.063-.196.063-.196s.99-.09 1.296-.017c.304.086 1.1.017 1.242-.012.146-.03.342-.127.342-.03 0 .096.232.62.445 1.088.206.455.418.747.334 1.304-.08.562-.017.753-.287.864-.27.11-.73.304-.865.512-.127.21.03.275.113.275s.18-.275.303-.165c.126.112.577.048.754.048.18 0 .737-.122.877-.122.148 0 .355-.08.37-.437.02-.35.098-.624.146-.776.05-.166-.095-.628-.175-1.073-.08-.45-.096-.704-.036-1.068.067-.37.2-.578.2-.674s.027-.224.14-.224c.117 0 .1.317.26.556.16.24.718.695.98 1.328.254.64.536 1.197.316 1.537-.23.34-.37.45-.562.45-.198 0-.226.202-.39.202-.153 0-.312.382-.22.42.098.024.192-.02.192.09 0 .122.176.163.305.148.127-.017.254 0 .223.09-.032.1.388.067.437 0 .043-.063.153-.105.286-.063.13.048 1.25-.153 1.28-.583.027-.437.16-1.397 0-1.673-.16-.266-.48-1.496-.56-2.035-.08-.552-.356-.732-.32-.896.032-.16.176-.303.462-.416.293-.108.467-.312.707-.526.237-.224.706-.653 1.583-.606.875.05 1.564.103 2.51.336.42.105 1.064.28 1.722.438-1.122 6.923-7.11 12.214-14.345 12.214z"></path>
+                    </svg>
+                    <div class="text">
+                        <h3>Classic Room</h3>
+                        <p>Starting from <strong>$29.00/Night</strong></p>
+                        <div class="post-meta mb30">
+                            <ul>
+                                <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
+                                <li><i class="icon-user2"></i> 3 Guests</li>
+                            </ul>
+                        </div>
+                        <p><a href="#" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="probootstrap-room">
+                    <a href="#"><img src="img/img_1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></a>
+                    <div class="text">
+                        <h3>Grand Deluxe Room</h3>
+                        <p>Starting from <strong>$29.00/Night</strong></p>
+                        <div class="post-meta mb30">
+                            <ul>
+                                <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
+                                <li><i class="icon-user2"></i> 3 Guests</li>
+                            </ul>
+                        </div>
+                        <p><a href="#" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix visible-sm-block"></div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="probootstrap-room">
+                    <a href="#"><img src="img/img_2.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></a>
+                    <div class="text">
+                        <h3>Ultra Superior Room</h3>
+                        <p>Starting from <strong>$29.00/Night</strong></p>
+                        <div class="post-meta mb30">
+                            <ul>
+                                <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
+                                <li><i class="icon-user2"></i> 3 Guests</li>
+                            </ul>
+                        </div>
+                        <p><a href="#" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="probootstrap-room">
+                    <a href="#"><img src="img/img_5.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></a>
+                    <div class="text">
+                        <h3>Grand Deluxe Room</h3>
+                        <p>Starting from <strong>$29.00/Night</strong></p>
+                        <div class="post-meta mb30">
+                            <ul>
+                                <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
+                                <li><i class="icon-user2"></i> 3 Guests</li>
+                            </ul>
+                        </div>
+                        <p><a href="#" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix visible-sm-block"></div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="probootstrap-room">
+                    <a href="#"><img src="img/img_6.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></a>
+                    <div class="text">
+                        <h3>Ultra Superior Room</h3>
+                        <p>Starting from <strong>$29.00/Night</strong></p>
+                        <div class="post-meta mb30">
+                            <ul>
+                                <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
+                                <li><i class="icon-user2"></i> 3 Guests</li>
+                            </ul>
+                        </div>
+                        <p><a href="#" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="probootstrap-room">
+                    <a href="#"><img src="img/img_7.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></a>
+                    <div class="text">
+                        <h3>Presidential Room</h3>
+                        <p>Starting from <strong>$29.00/Night</strong></p>
+                        <div class="post-meta mb30">
+                            <ul>
+                                <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252 Reviews</li>
+                                <li><i class="icon-user2"></i> 3 Guests</li>
+                            </ul>
+                        </div>
+                        <p><a href="#" class="btn btn-primary" role="button">Reserve now for $29.00</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix visible-sm-block"></div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>Why Choose Us?</h2>
+                <p class="mb50"><img src="img/curve.svg" class="svg" alt="Free HTML5 Bootstrap Template"></p>
+            </div>
+            <div class="col-md-4">
+                <div class="service left-icon left-icon-sm probootstrap-animate">
+                    <div class="icon">
+                        <i class="icon-check"></i>
+                    </div>
+                    <div class="text">
+                        <h3>1+ Million Hotel Rooms</h3>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service left-icon left-icon-sm probootstrap-animate">
+                    <div class="icon">
+                        <i class="icon-check"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Food &amp; Drinks</h3>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service left-icon left-icon-sm probootstrap-animate">
+                    <div class="icon">
+                        <i class="icon-check"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Airport Taxi</h3>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="probootstrap-section probootstrap-section-dark">
+    <div class="container">
+        <div class="row mb30">
+            <div class="col-md-8 col-md-offset-2 probootstrap-section-heading text-center">
+                <h2>Explore our Services</h2>
+                <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <p><img src="img/curve.svg" class="svg" alt="Free HTML5 Bootstrap Template"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="service left-icon probootstrap-animate">
+                    <div class="icon">
+                        <img src="img/flaticon/svg/001-building.svg" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+                    </div>
+                    <div class="text">
+                        <h3>1+ Million Hotel Rooms</h3>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service left-icon probootstrap-animate">
+                    <div class="icon">
+                        <img src="img/flaticon/svg/003-restaurant.svg" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+                    </div>
+                    <div class="text">
+                        <h3>Food &amp; Drinks</h3>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service left-icon probootstrap-animate">
+                    <div class="icon">
+                        <img src="img/flaticon/svg/004-parking.svg" class="svg" alt="Free HTML5 Bootstrap Template by uicookies.com">
+                    </div>
+                    <div class="text">
+                        <h3>Airport Taxi</h3>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="probootstrap-half">
+    <div class="image" style="background-image: url(img/slider_2.jpg);"></div>
+    <div class="text">
+        <div class="probootstrap-animate fadeInUp probootstrap-animated">
+            <h2 class="mt0">Best 5 Star hotel</h2>
+            <p><img src="img/curve_white.svg" class="seperator" alt="Free HTML5 Bootstrap Template"></p>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                </div>
+                <div class="col-md-6">
+                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                </div>
+            </div>
+            <p><a href="#" class="link-with-icon white">Learn More <i class=" icon-chevron-right"></i></a></p>
+        </div>
+    </div>
+</section>
+
+<!-- START: footer -->
+<footer role="contentinfo" class="probootstrap-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="probootstrap-footer-widget">
+                    <p class="mt40"><img src="img/logo_sm.png" class="hires" width="120" height="33" alt="Free HTML5 Bootstrap Template by uicookies.com"></p>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="probootstrap-footer-widget">
+                    <h3>Blog</h3>
+                    <ul class="probootstrap-blog-list">
+                        <li>
+                            <a href="#">
+                                <figure class="probootstrap-image"><img src="img/img_1.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
+                                <div class="probootstrap-text">
+                                    <h4>River named Duden flows</h4>
+                                    <span class="meta">August 2, 2017</span>
+                                    <p>A small river named Duden flows by their place</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure class="probootstrap-image"><img src="img/img_2.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
+                                <div class="probootstrap-text">
+                                    <h4>River named Duden flows</h4>
+                                    <span class="meta">August 2, 2017</span>
+                                    <p>A small river named Duden flows by their place</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure class="probootstrap-image"><img src="img/img_3.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
+                                <div class="probootstrap-text">
+                                    <h4>River named Duden flows</h4>
+                                    <span class="meta">August 2, 2017</span>
+                                    <p>A small river named Duden flows by their place</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="probootstrap-footer-widget">
+                    <h3>Contact</h3>
+                    <ul class="probootstrap-contact-info">
+                        <li><i class="icon-location2"></i> <span>198 West 21th Street, Suite 721 New York NY 10016</span></li>
+                        <li><i class="icon-mail"></i><span>info@domain.com</span></li>
+                        <li><i class="icon-phone2"></i><span>+123 456 7890</span></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="row mt40">
+            <div class="col-md-12 text-center">
+                <ul class="probootstrap-footer-social">
+                    <li><a href=""><i class="icon-twitter"></i></a></li>
+                    <li><a href=""><i class="icon-facebook"></i></a></li>
+                    <li><a href=""><i class="icon-instagram2"></i></a></li>
+                </ul>
+                <p>
+                    <small>&copy; 2017 <a href="https://uicookies.com/" target="_blank">uiCookies:Atlantis</a>. All Rights Reserved. <br> Designed &amp; Developed by <a href="https://uicookies.com/" target="_blank">uicookies.com</a> Demo Images: Unsplash.com &amp; Pexels.com</small>
+                </p>
+
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- END: footer -->
+
+<script src="js/scripts.min.js"></script>
+<script src="js/main.min.js"></script>
+<script src="js/custom.js"></script>
+
+
+</body>
+</html>
