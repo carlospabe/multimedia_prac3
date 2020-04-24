@@ -1676,6 +1676,26 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   font-size: 20px;
 }
 
+.overlay2{
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: none;
+}
+
+.overlay2 img {
+  width: 100%;
+  display: block;
+}
+
 .flexslider {
   position: relative;
   z-index: 2;
