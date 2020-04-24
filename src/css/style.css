@@ -928,6 +928,13 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   margin-bottom: 30px;
 }
 
+.probootstrap-room h2 {
+  font-size: 35px;
+  line-height: 24px;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
 .probootstrap-room h3 {
   font-size: 26px;
   line-height: 24px;
@@ -936,7 +943,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-room p {
-  color: #7a7a7a;
+  color: #595959;
 }
 
 .probootstrap-room p strong {
@@ -950,8 +957,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-room .text {
   padding: 20px;
-  border: 1px solid #e0e0e0;
-  border-top: none;
+  border: 1px solid #595959;
 }
 
 .probootstrap-room.fade {
